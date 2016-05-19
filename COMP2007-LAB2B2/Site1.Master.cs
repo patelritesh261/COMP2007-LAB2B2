@@ -41,8 +41,11 @@ namespace COMP2007_LAB2B2
                 case "Service Page":
                     service.Attributes.Add("class", "active");
                     break;
+                case "Contact Page":
+                    contact.Attributes.Add("class", "active");
+                    break;
 
-            
+
             }
             return Page.Title;
         }
