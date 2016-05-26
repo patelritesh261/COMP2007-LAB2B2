@@ -45,9 +45,9 @@ namespace COMP2007_LAB2B2
 
             try
             {
-                string fromaddr = "patelritesh261@gmail.com";
+                string fromaddr = "testwebritz@gmail.com";
                 string toaddr = txtEmail.Text.ToString();//TO ADDRESS HERE
-                string password = "9558346094";
+                string password = "testritzweb";
 
 
                 MailMessage msg = new MailMessage();
