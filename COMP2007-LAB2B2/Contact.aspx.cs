@@ -60,7 +60,7 @@ namespace COMP2007_LAB2B2
                 SmtpClient smtp = new SmtpClient();
                 smtp.Host = "smtp.gmail.com";
                 smtp.Port = 587;
-                smtp.UseDefaultCredentials = false;
+                smtp.UseDefaultCredentials = true;
                 smtp.EnableSsl = true;
                 NetworkCredential nc = new NetworkCredential(fromaddr, password);
                 smtp.Credentials = nc;
