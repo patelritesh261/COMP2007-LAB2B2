@@ -32,8 +32,8 @@ namespace COMP2007_LAB2B2
                 case "Home Page":
                     home.Attributes.Add("class", "active");
                     break;
-                case "Product Page":
-                    product.Attributes.Add("class", "active");
+                case "Project Page":
+                    project.Attributes.Add("class", "active");
                     break;
                 case "About Page":
                     about.Attributes.Add("class", "active");
@@ -43,6 +43,9 @@ namespace COMP2007_LAB2B2
                     break;
                 case "Contact Page":
                     contact.Attributes.Add("class", "active");
+                    break;
+                case "Education Page":
+                    education.Attributes.Add("class", "active");
                     break;
 
 
