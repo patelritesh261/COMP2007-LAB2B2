@@ -59,7 +59,7 @@ namespace COMP2007_LAB2B2
                 msg.To.Add(new MailAddress(toaddr));
                 SmtpClient smtp = new SmtpClient();
                 smtp.Host = "smtp.gmail.com";
-                smtp.Port = 587;
+                smtp.Port = 25;
                 smtp.UseDefaultCredentials = true;
                 smtp.EnableSsl = true;
                 NetworkCredential nc = new NetworkCredential(fromaddr, password);
