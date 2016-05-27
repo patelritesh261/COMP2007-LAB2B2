@@ -11,14 +11,5 @@ namespace COMP2007_LAB2B2 {
     
     
     public partial class Default {
-        
-        /// <summary>
-        /// btnSubmit control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSubmit;
     }
 }

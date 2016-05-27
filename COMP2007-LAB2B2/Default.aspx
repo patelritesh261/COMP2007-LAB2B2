@@ -7,7 +7,7 @@
      
       <h2><span>HI! I'M <em>RITESH PATEL</em><br /><br /></span>
       <div class="h2small">I am pursuing <em>Computer programming</em> at georgian college <br />This is my <em>Portfolio.</em>
-        <br /><asp:Button ID="btnSubmit" runat="server" CssClass="btn-primary bg-primary" Text="HIRE ME!" />
+        <br /><a href="Contact.aspx" Class="btn-primary bg-primary" >"HIRE ME!"</a>
       </div></h2>
        
        
